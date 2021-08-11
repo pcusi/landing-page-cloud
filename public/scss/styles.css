@@ -1,0 +1,435 @@
+@font-face {
+  font-family: 'Lato';
+  src: url("../assets/fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url("../assets/fonts/Rubik-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.ldp__body {
+  background: #000000;
+}
+
+.ldp__container {
+  padding: 66px 72px;
+}
+
+.ldp__container__fluid {
+  padding: 0 72px;
+}
+
+.ldp__btn__gradient {
+  position: relative;
+  width: 200px;
+  height: 56px;
+}
+
+.ldp__btn__gradient .ldp__btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 200px;
+  height: 56px;
+  border: 2px solid #fff;
+  background: #000000;
+  font-size: 16px;
+  color: #fff;
+  line-height: 19px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  border-radius: 15px;
+  font-family: "Rubik";
+}
+
+.ldp__btn__gradient .ldp__btn__animated {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 200px;
+  height: 56px;
+  background: conic-gradient(from 90deg at 50% 50%, rgba(0, 148, 255, 0) -198.75deg, rgba(196, 196, 196, 0) 8.04deg, #0085FF 31.88deg, #FF4FE3 120deg, rgba(0, 148, 255, 0) 161.25deg, rgba(196, 196, 196, 0) 368.04deg);
+  -webkit-filter: blur(30px);
+          filter: blur(30px);
+}
+
+.ldp__header .navbar-brand {
+  margin-right: 32px;
+}
+
+.ldp__header .nav-item {
+  margin-right: 32px;
+}
+
+.ldp__header .nav-link {
+  font-family: "Lato";
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  font-size: 20px;
+  line-height: 29px;
+}
+
+.ldp__info {
+  padding: 0 72px;
+}
+
+.ldp__info .ldp__info__title {
+  width: 594px;
+  height: auto;
+  font-size: 112px;
+  font-weight: 500;
+  line-height: 120px;
+  font-style: normal;
+  font-family: "Rubik";
+  color: #fff;
+  word-wrap: break-word;
+}
+
+.ldp__info .ldp__info__subtitle {
+  width: 508px;
+  height: auto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  font-style: normal;
+  color: #fff;
+  margin-bottom: 42px;
+  font-family: "Rubik";
+  white-space: pre-line;
+  word-wrap: break-word;
+}
+
+.ldp__features {
+  margin: 172px 0;
+  padding: 36px 119px;
+  background: linear-gradient(97.73deg, rgba(24, 167, 249, 0.86) -4.6%, rgba(255, 47, 197, 0.79) 93.44%);
+}
+
+.ldp__features .card {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 24px;
+  padding: 52px 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ldp__features .card .ldp__feature__title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #fff;
+  width: 237px;
+  height: auto;
+  word-wrap: break-word;
+  margin-bottom: 28px;
+}
+
+.ldp__features .card .ldp__feature__subtitle {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #fff;
+  width: 280px;
+  height: auto;
+  word-wrap: break-word;
+}
+
+.ldp__about {
+  margin-bottom: 214px;
+  margin-left: 72px;
+  height: auto;
+}
+
+.ldp__about .ldp__about__title {
+  margin-bottom: 122px;
+  width: 260px;
+  height: auto;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  word-wrap: break-word;
+  color: #fff;
+}
+
+.ldp__about .ldp__about__subtitle {
+  margin-bottom: 54px;
+  font-family: "Lato";
+  width: 467px;
+  height: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #fff;
+  white-space: pre-line;
+  word-wrap: break-word;
+}
+
+.ldp__about .ldp__about__img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.ldp__services .card__rainbow {
+  background: none;
+  position: relative;
+  height: 500px;
+  border: none;
+  background-image: url("../assets/img/landing_page_cloud_card_vector.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 24px;
+}
+
+.ldp__services .card__rainbow .card__rainbow__title__right {
+  margin-right: 44px;
+  margin-bottom: 54px;
+  position: absolute;
+  width: 369px;
+  right: 0;
+  z-index: 200;
+  bottom: 0;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  width: 369px;
+  height: auto;
+  color: #fff;
+  line-height: 52px;
+  text-align: right;
+  color: #fff;
+  white-space: pre-line;
+  word-wrap: break-word;
+}
+
+.ldp__services .card__rainbow .card__rainbow__title__left {
+  margin-left: 44px;
+  margin-bottom: 54px;
+  position: absolute;
+  width: 369px;
+  left: 0;
+  z-index: 200;
+  bottom: 0;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  width: 369px;
+  height: auto;
+  color: #fff;
+  line-height: 52px;
+  text-align: left;
+  color: #fff;
+  white-space: pre-line;
+  word-wrap: break-word;
+}
+
+.ldp__services .card__services {
+  background: linear-gradient(254.21deg, rgba(24, 167, 249, 0.79) -5.98%, rgba(255, 47, 197, 0.85) 108.3%);
+  border-radius: 24px;
+  padding: 54px;
+  border: none;
+}
+
+.ldp__services .card__services .card {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 24px;
+  padding: 32px 0;
+  width: 360px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ldp__services .card__services .card .card__services__title {
+  width: 237px;
+  height: 120px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  word-wrap: break-word;
+  white-space: pre-line;
+  color: #fff;
+}
+
+.ldp__services .card__services .card .card__services__img {
+  margin: 38px 0;
+  mix-blend-mode: luminosity;
+  width: 128px;
+  height: 128px;
+}
+
+.ldp__services .card__services .card .card__services__subtitle {
+  margin-bottom: 38px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  width: 280px;
+  height: 95px;
+  text-align: center;
+  word-wrap: break-word;
+  white-space: pre-line;
+  color: #fff;
+}
+
+.ldp__services .card__services .card .card__services__btn {
+  width: 148px;
+  height: 61px;
+  border: 1px solid #fff;
+  font-size: 16px;
+  color: #fff;
+  line-height: 19px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  -webkit-filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 16px;
+  font-family: "Rubik";
+}
+
+.ldp__services .card__dark {
+  background-color: #131313;
+  height: 500px;
+  padding: 72px;
+  border-radius: 24px !important;
+}
+
+.ldp__services .card__dark .card__dark__title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: #fff;
+  margin-bottom: 36px;
+}
+
+.ldp__services .card__dark .card__dark__subtitle {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #fff;
+  white-space: pre-line;
+  word-wrap: break-word;
+}
+
+.ldp__services .card__services__features {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.55)), to(#2C2C2C));
+  background: linear-gradient(180deg, rgba(22, 22, 22, 0.55) 0%, #2C2C2C 100%);
+  border-radius: 24px;
+  width: 410px;
+  height: 624px;
+  padding: 64px 0;
+  border: none;
+}
+
+.ldp__services .card__services__features .card__services__features__title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 51px;
+}
+
+.ldp__services .card__services__features .card__services__features__img {
+  padding: 0 47px;
+}
+
+.ldp__services .card__services__features .card__services__features__title__inverted {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+  color: #fff;
+}
+
+.ldp__services .card__services__features .card__services__features__img__inverted {
+  padding: 0 47px;
+  margin-bottom: 51px;
+}
+
+.ldp__services .separator {
+  margin-top: 32px;
+}
+
+.ldp__projects {
+  margin: 172px 0;
+  height: auto;
+}
+
+.ldp__projects .ldp__project__title {
+  margin-bottom: 122px;
+  width: 260px;
+  height: auto;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  word-wrap: break-word;
+  color: #fff;
+}
+
+.ldp__projects .ldp__project__subtitle {
+  margin-bottom: 54px;
+  font-family: "Lato";
+  width: 467px;
+  height: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #fff;
+  white-space: pre-line;
+  word-wrap: break-word;
+}
+
+.ldp__projects .ldp__project__img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+/*# sourceMappingURL=styles.css.map */

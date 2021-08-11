@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('../assets/fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../assets/fonts/Rubik-Regular.ttf');
+}
+
+//background color
+$bg-black: #000000;
+$bg-white: #fff;
+
+//font color and family
+$font-white: #fff;
+$font-lato: 'Lato';
+$font-rubik: 'Rubik';
+
+//card background
+$card-bg-dark: #131313;
+$card-bg-rainbow: #2D1E4E;
+$card-bg-rainbow-blur: rgba(255, 255, 255, 0.1);
+$card-bg-filter: blur(150px);
